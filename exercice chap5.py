@@ -15,30 +15,17 @@ def convert_to_absolute(number: float) -> float:
 
 def use_prefixes() -> List[str]:
     prefixes, suffixe = 'JKLMNOPQ', 'ack'
-    Liste=[]
-    for i in prefixes:
-        Liste.append(i+suffixe)
-    return Liste
+    
+
+    return [""]
 
 
 def prime_integer_summation() -> int:
-    premier=0
-    i=2
-    while i<=100 :
-        for n in range (i-1, 2):
-            if i%n==0:
-                break
-            else:
-                premier=i+premier
-                i+=1
-    return premier
+    return 0
 
 
 def factorial(number: int) -> int:
-    f=1
-    for i in range(1, number+1):
-        f=f*i
-    return f
+    return 0
 
 
 def use_continue() -> None:
